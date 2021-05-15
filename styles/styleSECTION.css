@@ -57,3 +57,31 @@ article .icon-chevron-down {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  section {
+    width: 95%;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  section article {
+    margin: 10px 0;
+    background-color: #eafbff9a;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  article h1{
+    margin-right: 40px;
+    font-size: 2rem;
+  }
+  
+  article .toggleArticle {
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+  }
+}
