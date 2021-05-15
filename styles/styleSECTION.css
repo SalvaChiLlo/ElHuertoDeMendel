@@ -34,6 +34,7 @@ article .toggleArticle {
   background-color: transparent;
   border: none;
   font-size: 30px;
+  cursor: pointer;
 }
 
 article.active .icon-remove {
@@ -52,4 +53,7 @@ article .icon-chevron-down {
   display: inline;
 }
 
+.articleContent {
+  text-align: center;
+}
 
