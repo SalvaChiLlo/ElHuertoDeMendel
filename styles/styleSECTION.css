@@ -1,0 +1,55 @@
+section {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.733);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+section article {
+  margin: 20px 0;
+  background-color: #eafbff9a;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+article h1{
+  font-size: 2rem;
+}
+
+article .articleContent {
+  display: none;
+}
+
+article.active .articleContent {
+  display: block;
+  margin-top: 10px;
+}
+
+article .toggleArticle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+article.active .icon-remove {
+  display: inline;
+}
+
+article .icon-remove {
+  display: none;
+}
+
+article.active .icon-chevron-down {
+  display: none;
+}
+
+article .icon-chevron-down {
+  display: inline;
+}
+
+
