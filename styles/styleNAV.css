@@ -5,7 +5,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #5290f9;
+  background-color: #009e35;
 }
 
 .burger {
@@ -19,6 +19,10 @@ header nav {
   width: fit-content;
   width: 70%;
   border-radius: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
 }
 
 nav ul {

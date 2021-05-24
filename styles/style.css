@@ -5,6 +5,9 @@
 
 body {
   background: #eafbff;
+  background-image: url("https://elhuertodelbahia.files.wordpress.com/2021/01/gregor-mendel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
