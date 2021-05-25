@@ -149,11 +149,11 @@ nav li.active {
 
 @media (max-width: 560px) {
   nav.active {
-    transform: translateY(100px);
+    transform: translateY(190px);
   }
 
   .burger.active {
-    top: 120px;
+    top: 210px;
     right: 20px;
   }
 }
