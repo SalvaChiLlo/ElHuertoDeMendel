@@ -51,6 +51,10 @@ nav li.active {
     padding-bottom: 25px;
   }
 
+  header h2 {
+    display: none;
+  }
+
   nav {
     transition: all 0.6s ease;
   }
