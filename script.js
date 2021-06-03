@@ -4,7 +4,9 @@ const navigation = document.getElementsByTagName('nav')[0]
 console.log(navigation)
 articles.forEach(article => {
   article.addEventListener('click', (e) => {
-    article.classList.toggle("active")
+    if (!article.classList.contains('main')){
+      article.classList.toggle("active")
+    }
   })
 });
 
